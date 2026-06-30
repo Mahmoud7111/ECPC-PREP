@@ -1,0 +1,27 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.ilk
+*.pdb
+*.tlog
+
+# Debug/Release build folders
+Debug/
+Release/
+build/
+
+# IDE specific
+.idea/
+.vscode/
+*.cbp
+*.layout
+*.depend
+
+# OS specific
+.DS_Store
+Thumbs.db
