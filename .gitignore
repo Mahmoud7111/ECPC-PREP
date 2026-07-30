@@ -1,27 +1,54 @@
-# Compiled executables
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cachefile
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+*.svclog
+
+# Build outputs
+[Dd]ebug/
+[Rd]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Bb]uild/
+
+# MSBuild intermediate files
+ipch/
+*.aps
+*.pch
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.idb
+*.pdb
+*.ipdb
+*.iobj
+*.pgc
+*.pgd
+*.rsp
+*.exp
+*.ilk
+*.sdf
+*.opensdf
+
+# Compiled binaries
 *.exe
 *.out
 *.app
+*.dll
+*.lib
 
-# Object files
-*.o
-*.obj
-*.ilk
-*.pdb
-*.tlog
-
-# Debug/Release build folders
-Debug/
-Release/
-build/
-
-# IDE specific
-.idea/
+# IDE / OS
 .vscode/
-*.cbp
-*.layout
-*.depend
-
-# OS specific
+.idea/
+.claude/
 .DS_Store
 Thumbs.db
+desktop.ini
